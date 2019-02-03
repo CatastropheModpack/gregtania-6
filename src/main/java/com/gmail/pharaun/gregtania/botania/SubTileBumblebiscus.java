@@ -51,7 +51,7 @@ public class SubTileBumblebiscus extends SubTileFunctional {
         if(!supertile.getWorldObj().isRemote && mana >= COST && ticksExisted % 2 == 0) {
             ChunkCoordinates coords = getCoordsToPut();
             if(coords != null) {
-                MultiTileEntityRegistry tRegistry = MultiTileEntityRegistry.getRegistry("gt.multitileentity");
+                MultiTileEntityRegistry tRegistry = MultiTileEntityRegistry.getRegistry("gt6.multitileentity");
                 int[] spec = species[supertile.getWorldObj().rand.nextInt(species.length)];
 
                 wgHives.placeHive(tRegistry, supertile.getWorldObj(), coords.posX, coords.posY, coords.posZ,
