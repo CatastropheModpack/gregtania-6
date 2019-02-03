@@ -50,7 +50,7 @@ public abstract class SubTileAbstractEvolvedOrechid extends SubTileFunctional {
 	public abstract int getCost();
 	public abstract int getDelay();
 
-	static final String BLACK_SANDS = "###GREGTECH:BLACK_SANDS###";
+	static final String BLACK_SANDS = "###GREGTECH6:BLACK_SANDS###";
 
 	@Override
 	public void onUpdate() {
