@@ -10,11 +10,17 @@
  */
 package com.gmail.pharaun.gregtania.botania;
 
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.List;
+import java.util.Set;
+
 import com.gmail.pharaun.gregtania.misc.BotaniaHelper;
-import gregapi.block.IBlockPlacable;
-import gregapi.code.ItemStackContainer;
-import gregapi.data.CS;
-import gregapi.oredict.OreDictMaterial;
+
+import gregapi6.block.IBlockPlacable;
+import gregapi6.code.ItemStackContainer;
+import gregapi6.data.CS;
+import gregapi6.oredict.OreDictMaterial;
 import net.minecraft.block.Block;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.ChunkCoordinates;
@@ -24,8 +30,6 @@ import vazkii.botania.api.lexicon.LexiconEntry;
 import vazkii.botania.api.subtile.RadiusDescriptor;
 import vazkii.botania.api.subtile.SubTileFunctional;
 import vazkii.botania.common.core.handler.ConfigHandler;
-
-import java.util.*;
 
 public abstract class SubTileAbstractEvolvedOrechid extends SubTileFunctional {
 

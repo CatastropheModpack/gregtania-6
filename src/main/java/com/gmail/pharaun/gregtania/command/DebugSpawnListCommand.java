@@ -1,23 +1,21 @@
 package com.gmail.pharaun.gregtania.command;
 
-import com.gmail.pharaun.gregtania.misc.BotaniaHelper;
-import com.gmail.pharaun.gregtania.misc.Config;
-import gregapi.oredict.OreDictMaterial;
-import javafx.util.Pair;
-import net.minecraft.block.Block;
-import net.minecraft.command.ICommand;
-import net.minecraft.command.ICommandSender;
-import net.minecraft.item.Item;
-import net.minecraft.item.ItemStack;
-import net.minecraft.util.ChatComponentText;
-import net.minecraft.world.World;
-
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
+
+import com.gmail.pharaun.gregtania.misc.BotaniaHelper;
+import com.gmail.pharaun.gregtania.misc.Config;
+
+import gregapi6.oredict.OreDictMaterial;
+import net.minecraft.command.ICommand;
+import net.minecraft.command.ICommandSender;
+import net.minecraft.item.ItemStack;
+import net.minecraft.util.ChatComponentText;
+import net.minecraft.world.World;
 
 public class DebugSpawnListCommand implements ICommand {
     @Override

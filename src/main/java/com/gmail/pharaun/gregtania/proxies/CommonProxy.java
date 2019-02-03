@@ -1,5 +1,8 @@
 package com.gmail.pharaun.gregtania.proxies;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import com.gmail.pharaun.gregtania.botania.GTItemLens;
 import com.gmail.pharaun.gregtania.botania.Util;
 import com.gmail.pharaun.gregtania.lexicon.GTLexiconData;
@@ -8,11 +11,12 @@ import com.gmail.pharaun.gregtania.misc.Config;
 import com.gmail.pharaun.gregtania.misc.LogHelper;
 import com.gmail.pharaun.gregtania.misc.ModCraftingRecipes;
 import com.gmail.pharaun.gregtania.misc.ModFlowers;
+
 import cpw.mods.fml.common.Loader;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
-import gregapi.data.CS;
+import gregapi6.data.CS;
 import net.minecraft.block.Block;
 import net.minecraft.init.Blocks;
 import net.minecraft.init.Items;
@@ -30,9 +34,6 @@ import vazkii.botania.common.block.ModBlocks;
 import vazkii.botania.common.block.ModFluffBlocks;
 import vazkii.botania.common.crafting.ModManaAlchemyRecipes;
 import vazkii.botania.common.item.ModItems;
-
-import java.util.ArrayList;
-import java.util.List;
 
 public class CommonProxy {
 

@@ -1,29 +1,33 @@
 package com.gmail.pharaun.gregtania.misc;
 
+import static com.gmail.pharaun.gregtania.misc.Config.*;
+import static com.gmail.pharaun.gregtania.misc.OrechidYieldConfig.*;
+
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Collections;
+import java.util.HashMap;
+import java.util.Hashtable;
+import java.util.List;
+import java.util.Map;
+import java.util.stream.Collectors;
+
 import com.gmail.pharaun.gregtania.botania.SubTileLayeredOrechid;
 import com.gmail.pharaun.gregtania.botania.Util;
-import gregapi.code.ItemStackContainer;
-import gregapi.data.CS;
-import gregapi.data.MT;
-import gregapi.data.OP;
 
-import gregapi.oredict.OreDictMaterial;
-import gregapi.worldgen.StoneLayer;
-import gregapi.worldgen.StoneLayerOres;
-import gregapi.worldgen.WorldgenOresLarge;
-import gregapi.worldgen.WorldgenOresSmall;
-import javafx.util.Pair;
+import gregapi6.code.ItemStackContainer;
+import gregapi6.data.CS;
+import gregapi6.data.MT;
+import gregapi6.data.OP;
+import gregapi6.oredict.OreDictMaterial;
+import gregapi6.worldgen.StoneLayer;
+import gregapi6.worldgen.StoneLayerOres;
+import gregapi6.worldgen.WorldgenOresLarge;
+import gregapi6.worldgen.WorldgenOresSmall;
 import net.minecraft.block.Block;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.WeightedRandom;
 import net.minecraftforge.oredict.OreDictionary;
-
-import java.util.*;
-import java.util.stream.Collectors;
-
-import static com.gmail.pharaun.gregtania.misc.Config.stackedOreInTiers;
-import static com.gmail.pharaun.gregtania.misc.OrechidYieldConfig.oreWeightEnd;
-import static com.gmail.pharaun.gregtania.misc.OrechidYieldConfig.oreWeightNether;
 
 // Credit - Botania - BotaniaAPI
 public class BotaniaHelper {

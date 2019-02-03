@@ -5,12 +5,11 @@ import java.util.ArrayList;
 import java.util.List;
 
 import com.gmail.pharaun.gregtania.misc.BotaniaHelper;
-import javafx.util.Pair;
+
 import net.minecraft.block.Block;
 import net.minecraft.init.Blocks;
 import net.minecraft.util.ChunkCoordinates;
 import net.minecraft.util.WeightedRandom;
-import vazkii.botania.api.lexicon.LexiconEntry;
 import vazkii.botania.api.subtile.RadiusDescriptor;
 import vazkii.botania.api.subtile.SubTileFunctional;
 import vazkii.botania.common.core.handler.ConfigHandler;

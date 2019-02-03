@@ -1,7 +1,13 @@
 package com.gmail.pharaun.gregtania.lexicon;
 
-import gregapi.data.MT;
-import gregapi.data.OP;
+import static com.gmail.pharaun.gregtania.misc.ModCraftingRecipes.*;
+import static com.gmail.pharaun.gregtania.misc.ModFlowers.*;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import gregapi6.data.MT;
+import gregapi6.data.OP;
 import vazkii.botania.api.BotaniaAPI;
 import vazkii.botania.api.lexicon.LexiconEntry;
 import vazkii.botania.api.lexicon.LexiconPage;
@@ -10,12 +16,6 @@ import vazkii.botania.common.lexicon.page.PageManaInfusionRecipe;
 import vazkii.botania.common.lexicon.page.PagePetalRecipe;
 import vazkii.botania.common.lexicon.page.PageRuneRecipe;
 import vazkii.botania.common.lexicon.page.PageText;
-
-import java.util.ArrayList;
-import java.util.List;
-
-import static com.gmail.pharaun.gregtania.misc.ModFlowers.*;
-import static com.gmail.pharaun.gregtania.misc.ModCraftingRecipes.*;
 
 /**
  * Created by Rio on 7/12/2018.

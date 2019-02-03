@@ -1,21 +1,18 @@
 
 package com.gmail.pharaun.gregtania.botania;
 
-import com.gmail.pharaun.gregtania.misc.BotaniaHelper;
-import gregapi.block.multitileentity.MultiTileEntityRegistry;
-import gregapi.data.CS;
-import gregtech.worldgen.WorldgenHives;
+import java.util.ArrayList;
+import java.util.List;
+
+import gregapi6.block.multitileentity.MultiTileEntityRegistry;
+import gregapi6.data.CS;
+import gregtech6.worldgen.WorldgenHives;
 import net.minecraft.block.Block;
-import net.minecraft.init.Blocks;
 import net.minecraft.util.ChunkCoordinates;
-import net.minecraft.util.WeightedRandom;
 import vazkii.botania.api.lexicon.LexiconEntry;
 import vazkii.botania.api.subtile.RadiusDescriptor;
 import vazkii.botania.api.subtile.SubTileFunctional;
 import vazkii.botania.common.core.handler.ConfigHandler;
-
-import java.util.ArrayList;
-import java.util.List;
 
 public class SubTileBumblebiscus extends SubTileFunctional {
 

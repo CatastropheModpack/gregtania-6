@@ -1,36 +1,29 @@
 package com.gmail.pharaun.gregtania.botania;
 
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Set;
+
 import com.gmail.pharaun.gregtania.lexicon.GTLexiconData;
 import com.gmail.pharaun.gregtania.misc.BotaniaHelper;
-import gregapi.block.IBlockPlacable;
-import gregapi.code.ItemStackContainer;
-import gregapi.code.ItemStackMap;
-import gregapi.data.CS;
-import gregapi.oredict.OreDictItemData;
-import gregapi.oredict.OreDictManager;
-import gregapi.oredict.OreDictMaterial;
-import gregapi.worldgen.StoneLayer;
-import gregapi.worldgen.StoneLayerOres;
-import javafx.util.Pair;
+
+import gregapi6.block.IBlockPlacable;
+import gregapi6.code.ItemStackContainer;
+import gregapi6.data.CS;
+import gregapi6.oredict.OreDictMaterial;
+import gregapi6.worldgen.StoneLayer;
+import gregapi6.worldgen.StoneLayerOres;
 import net.minecraft.block.Block;
 import net.minecraft.init.Blocks;
-import net.minecraft.item.ItemStack;
 import net.minecraft.util.ChunkCoordinates;
 import net.minecraft.util.WeightedRandom;
-import net.minecraftforge.oredict.OreDictionary;
 import vazkii.botania.api.lexicon.LexiconEntry;
 import vazkii.botania.api.subtile.RadiusDescriptor;
 import vazkii.botania.api.subtile.SubTileFunctional;
 import vazkii.botania.common.Botania;
 import vazkii.botania.common.core.handler.ConfigHandler;
-import vazkii.botania.common.lexicon.LexiconData;
-
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.Collections;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Set;
 
 /**
  * Created by Rio on 7/9/2018.
